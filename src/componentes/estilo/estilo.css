@@ -1,0 +1,158 @@
+.cabecalho {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    display: flex;                        /*usado para que a barra seja mais flex e colorir da forma definida*/
+    color: aliceblue;
+    background: linear-gradient(90deg, rgb(180, 211, 230), rgb(65, 120, 141), rgb(105, 27, 231));
+    width: 100%;                            /*Tamanho definido para a barra do cabeçalho*/
+    margin: 0%;
+}
+
+.barra li a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+ul li {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemLogo {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding: 0;                                                 /* Remove padding */
+    margin: 0;                                                 /* Remove margin */
+    background-color: rgb(175, 211, 230);
+    width: 150px;
+    height: 100%;
+}
+
+.barra li:hover {
+    color: rgb(0, 0, 0)                                 /*quando passar o mouse por ele ficara da cor definida*/
+}
+
+input {
+    padding: 9px;                                         /*Caixa de Pesquisa que está na pasta Corpo*/
+    margin: 10px;
+    width: 390px;
+    border-radius: 5px;
+    border-color: rgb(60, 7, 121);
+}
+
+Body{
+    background-color: rgb(231, 227, 220);
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6badf3;                                /* Cor de fundo do botão */
+    color: white;                                            /* Cor do texto do botão */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.Rodpag1 {                                              /*Moldar o rodapé*/
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    padding: 50px;
+}
+
+.rptopico{
+    flex-direction: row;
+}
+
+.Pesquisa {
+    padding: 100px;
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.procurando-vagas, .localizaçao {
+    width: 200px; /* Ajustando altura quando necessario */
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+}
+
+/* daqui pra frente é só sobre Login*/
+
+
+.login-container {
+    background: linear-gradient(90deg, rgb(180, 211, 230), rgb(65, 120, 141), rgb(105, 27, 231));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 150px;
+    background-color: transparent(10);
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.411);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .cad-button {
+    
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cad-button:hover {
+    background-color: #145293;
+  }
+  
