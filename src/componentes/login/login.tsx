@@ -19,6 +19,7 @@ const Login: React.FC = () => {
         </div>
         <div className='form-group'>
           <button className='cad-button'>Cadastro</button>
+          <div></div>
         </div>
       </div>
     </div>
